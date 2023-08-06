@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
 
-import TodoItem from "./TodoItem";
-import { TodosContext } from "../store/todos-context";
-import classes from "./Todos.module.css";
+import TodoItem from './TodoItem';
+import { TodosContext } from '../store/todos-context';
+import classes from './Todos.module.css';
 
 const Todos: React.FC = () => {
   const todosCtx = useContext(TodosContext);
